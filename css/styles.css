@@ -4,12 +4,15 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
 }
-body{
-    background-color: black;
-    border-style:double;color:pink; width: 1200px; height:1200px;
+.body{
+    border-style:double;color: magenta; height: 1000px; width: 1000px;
+}
+.container{
+    background-image:url(file:///home/brian/Desktop/TJ/images.png);height: 800px;
+    border-style:double;color:pink; 
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
+    background-attachment:scroll;
+    background-size: cover;
     background-position:center ;
 }
 .logo{
@@ -101,6 +104,7 @@ h5{
     cursor:context-menu;
 }
 .about{
+    background-color: black;
     width:60%;
     margin-top: 300px;
     margin-left: 10%;
@@ -151,4 +155,16 @@ h5{
  button:hover{
     background-color: transparent;
     border: 2px solid beige;
+ }
+ .service{
+    background-image:url(file:///home/brian/Desktop/TJ/jj.jpg);
+    width:100%;
+    padding:100px 0px;
+ }
+ .title h3{
+    color:beige;
+    font-size: 50px; 
+    width:1000px;
+    margin: -50px; 
+    padding-left: 50px;
  }
